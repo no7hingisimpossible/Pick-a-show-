@@ -16,7 +16,7 @@ a:hover{
     background-color: green;
     color: white;
 }
-p {
+.logo {
     font-size: 30px;
     word-spacing: 16px;
 }

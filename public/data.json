@@ -1,50 +1,56 @@
 [
     {
-      "id": "623de81e962c322616b17c10",
-      "name": "64b23835-96d2-4446-afbe-5963c4eca9ac",
-      "rating": false,
+      "id": "1",
+      "name": "Inside Bill's Brain: Decoding Bill Gates",
+      "rating": 5,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e4e4084b074eaed9f",
-      "name": "ab9cb75e-30a7-4b8f-aaaa-584c533e75b7",
-      "rating": false,
+      "id": "2",
+      "name": "The Case Against Boeing",
+      "rating": 4.5,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81eedfa8ae8ebea94a0",
-      "name": "6a3f7579-e65f-4f7c-9a9d-82d573e1c3fd",
-      "rating": true,
+      "id": "3",
+      "name": "Sons of Anarchy",
+      "rating": 4,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e3d7a4bdcf29d248d",
-      "name": "2636086e-a1ed-4e39-b8a8-a641e81f53d7",
-      "rating": true,
+      "id": "4",
+      "name": "Friends",
+      "rating": 5,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e07b1a5499248eef9",
-      "name": "9ecc8bf4-04da-486e-82e1-4959e470a100",
-      "rating": true,
+      "id": "5",
+      "name": "The Breaking Bad",
+      "rating": 5,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e738d8640de585634",
-      "name": "269794a5-6566-4b4c-98a1-6d5d12cf2f3d",
-      "rating": false,
+      "id": "6",
+      "name": "Justified",
+      "rating": 4,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e55bd0ec3aca7887b",
-      "name": "5852eae0-3e59-48ea-9394-7e997290e56c",
-      "rating": true,
+      "id": "7",
+      "name": "Death Note",
+      "rating": 5,
       "img": "http://placehold.it/32x32"
     },
     {
-      "id": "623de81e0d9a2fd0894199b2",
-      "name": "b396826f-3f9c-4f9f-917a-cfcfad337a23",
-      "rating": false,
+      "id": "8",
+      "name": "The Vampire Diaries",
+      "rating": 3.5,
       "img": "http://placehold.it/32x32"
-    }
+    },
+    {
+        "id": "9",
+        "name": "Lost",
+        "rating": 4.5,
+        "img": "http://placehold.it/32x32"
+      }
   ]

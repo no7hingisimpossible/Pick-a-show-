@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Button from '../components/Button/Button';
 import Cart from '../components/Cart/Cart';
 import Movie from '../components/Movie/Movie';
 import './Main.css'
@@ -14,8 +15,21 @@ const Main = () => {
 
     const addToCartHandler=(name)=>{
         const newCart = [...cart, name]
-        setCart(newCart)
+        if(cart.length >=5){
+            alert('Cant choose more than 5 movies')
+        }
+        else{
+
+            setCart(newCart)
+        }
         console.log(newCart);
+    }
+    const clearCart = () =>{
+        setCart([])
+    }
+    const selectRandom= () => {
+        let show = cart[Math.floor(Math.random() * cart.length)];
+        alert(show)
     }
 
     return (
@@ -31,7 +45,17 @@ const Main = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart}></Cart>
+                <p className='picks'>Your Picks</p>
+                {
+                    cart.map(item=> <Cart item={item}></Cart>)
+                }
+                {/* <Cart
+                clearCart={clearCart} 
+                cart={cart}
+                ></Cart> */}
+                <button className='clear-btn' onClick={clearCart}>Clear</button>
+                <button className='random-btn' onClick={selectRandom}>Pick a random show</button>
+                
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import './Movie.css'
 
 const Movie = (props) => {
-    console.log(props.movie)
+    const{addToCartHandler} = props
     const {name, rating, img, genre} = props.movie
     return (
         <div className='card'>
@@ -12,7 +12,7 @@ const Movie = (props) => {
                     <p>Genre: <small>{genre}</small></p>
                     <p><small>rating: {rating}</small></p>
                 </div>
-                    <button className='add-cart-btn'>Add to Cart</button>
+                    <button onClick={ () => addToCartHandler (name) } className='add-cart-btn'>Add to Cart</button>
         </div>
     );
 };

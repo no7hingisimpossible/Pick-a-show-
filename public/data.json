@@ -10,28 +10,28 @@
       "id": "2",
       "name": "The Case Against Boeing",
       "rating": 4.5,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTQ2ZjIwYmEtZTE0My00ZThhLWEzZDctMjM3NTM1MzAxNDI3XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg",
       "genre": "documentary"
     },
     {
       "id": "3",
       "name": "Sons of Anarchy",
       "rating": 4,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCOTgHAZ_snrvAvuKTeNBk-MJhtgtvshISXw&usqp=CAU",
       "genre": "sitcom, comedy, romance"
     },
     {
       "id": "4",
       "name": "Friends",
       "rating": 5,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "genre": "action, drama, tragedy, thriller"
     },
     {
       "id": "5",
       "name": "Breaking Bad",
       "rating": 5,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://i.ytimg.com/vi/ceqOTZnhgY8/maxresdefault.jpg",
       "genre": "dark comedy, drama, crime, tragedy"
      
     },
@@ -39,28 +39,28 @@
       "id": "6",
       "name": "Better Call Saul",
       "rating": 4,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://i.ytimg.com/vi/Qz3u06eXf0E/maxresdefault.jpg",
       "genre": "dark comedy, drama, crime, tragedy"
     },
     {
       "id": "7",
       "name": "Death Note",
       "rating": 5,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg", 
+      "img": "https://knowanimes.com/wp-content/uploads/2021/09/56225-1.jpg", 
       "genre": "mystery, psychological thriller, thriller"
     },
     {
       "id": "8",
       "name": "The Vampire Diaries",
       "rating": 3.5,
-      "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+      "img": "https://ntvb.tmsimg.com/assets/p10700229_b_h10_aa.jpg?w=1280&h=720",
       "genre": "fantasy, romance, thriller, fiction, teen drama, supernatural"
     },
     {
         "id": "9",
         "name": "Lost",
         "rating": 4.5,
-        "img": "https://www.terrapower.com/wp-content/uploads/2019/09/post3-imgrevised.jpg",
+        "img": "data:image/jpeg;base64,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",
         "genre": "science fiction, thriller, mystery, adventure"
       }
   ]

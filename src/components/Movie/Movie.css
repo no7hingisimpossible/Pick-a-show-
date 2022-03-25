@@ -5,7 +5,7 @@ img {
     border-radius: 8px;
 }
 .card{
-    border: 1px solid black;
+    
     width: 300px;
     height: 500px;
     border-radius: 8px;
@@ -25,7 +25,10 @@ img {
     border-radius: 8px;
     border: none;
     height: 40px;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
 }
 .add-cart-btn:hover{
-    background-color: aqua;
+    background-color: #f1b24a;
 }

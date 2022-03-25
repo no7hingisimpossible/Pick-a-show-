@@ -1,5 +1,5 @@
 .header{
-    background-color: palegreen;
+    background-color: #003366;
     height: 70px;
     display: flex;
     align-items: center;
@@ -8,15 +8,20 @@
 }
 .header a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 50px;
     font-size: 18px;
 }
 a:hover{
-    background-color: green;
-    color: white;
+    /* background-color:; */
+    color:  #d62828;
 }
 .logo {
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: bold;
     word-spacing: 16px;
+    color: white;
+}
+span{
+    color: #d62828;
 }

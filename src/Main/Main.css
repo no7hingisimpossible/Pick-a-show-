@@ -11,13 +11,13 @@
     margin: 80px 30px;
 }
 .cart-container{
-    background-color: #4828d69b;
+    background-color: #cad628bb;
 }
 .picks{
     margin-left: 35px;
     font-size: 30px;
     letter-spacing: 4px;
-    color: #d62828;
+    color: white;
     font-weight: bold;
 }
 .clear-btn{
@@ -28,7 +28,7 @@
     margin-left: 50px;
     padding: 5px 35px;
     border: none;
-    background-color: #4100667e;
+    background-color: #0066337e;
     color: white;
     border-radius: 8px;
 
@@ -39,7 +39,7 @@
     width: 150px;
     height: 50px;
     margin-left: 50px;
-    background-color: #4100667e;
+    background-color: #0066337e;
     /* padding: 5px 35px; */
     border: none;
     color: white;
@@ -48,7 +48,7 @@
    
 }
 .clear-btn:hover,.random-btn:hover{
-    background-color: #4100668e;
+    background-color: #00663371;
 }
 .font-awesome{
     margin-left: 6px;

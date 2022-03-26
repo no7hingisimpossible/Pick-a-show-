@@ -24,10 +24,10 @@ img {
     border-radius:0px 0px 8px 8px;
     border: none;
     height: 40px;
-    background-color: #4100667e;
+    background-color: #0066337e;
     color: white;
     font-weight: bold;
 }
 .add-cart-btn:hover{
-    background-color: #4100668e;
+    background-color: #00663371;
 }

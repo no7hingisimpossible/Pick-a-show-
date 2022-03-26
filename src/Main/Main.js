@@ -39,7 +39,7 @@ const Main = () => {
 // random picker handler
 
     const selectRandom= () => {
-        let show = cart[Math.floor(Math.random() * cart.length)];
+        let show = cart[Math.floor(Math.random() * cart.length)].name;
         alert(show)
     }
 

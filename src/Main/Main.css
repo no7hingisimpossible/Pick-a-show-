@@ -11,13 +11,14 @@
     margin: 80px 30px;
 }
 .cart-container{
-    background-color: #d62828;
+    background-color: #4828d69b;
 }
 .picks{
-    margin-left: 10px;
+    margin-left: 35px;
     font-size: 30px;
     letter-spacing: 4px;
-    color: white;
+    color: #d62828;
+    font-weight: bold;
 }
 .clear-btn{
     position: absolute;
@@ -27,7 +28,7 @@
     margin-left: 50px;
     padding: 5px 35px;
     border: none;
-    background-color: #003366;
+    background-color: #4100667e;
     color: white;
     border-radius: 8px;
 
@@ -38,7 +39,7 @@
     width: 150px;
     height: 50px;
     margin-left: 50px;
-    background-color: #003366;
+    background-color: #4100667e;
     /* padding: 5px 35px; */
     border: none;
     color: white;
@@ -47,7 +48,7 @@
    
 }
 .clear-btn:hover,.random-btn:hover{
-    background-color: #f1b24a;
+    background-color: #4100668e;
 }
 .font-awesome{
     margin-left: 6px;

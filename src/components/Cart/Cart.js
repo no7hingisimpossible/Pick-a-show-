@@ -8,7 +8,7 @@ const Cart = (props) => {
             <div className='img-container'>
                 <img className='img' src={img} alt="" />
             </div>
-            <p>{name}</p>
+            <p className='movie-name'>{name}</p>
            
             
             

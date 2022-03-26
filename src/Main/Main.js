@@ -68,20 +68,13 @@ const Main = () => {
                 <p>how does react work?</p>
                 <p>React is JS based library specially for UI. One of the best thing about react is it creates a virtual dom which compares with the real dom to makes changes to specific node which makes rendering fast rather than scanning the whole dom for making changes. React follows unidirection data flow. </p>
                 <p>Props vs State</p>
-                <table>
-                    <tr>
-                        <td>Props</td>
-                        <td>State</td>
-                    </tr>
-                    <tr>
-                        <td>props get passed to the component</td>
-                        <td>state is managed within the component</td>
-                    </tr>
-                    <tr>
-                        <td>props are immutable</td>
-                        <td>state can be modified using the setState function</td>
-                    </tr>
-                </table>
+                <p>Props</p>
+                <p>props get passed to the component</p>
+                <p>props are immutable</p>
+                <p>State</p>
+                <p>state is managed within the component</p>
+                <p>state can be modified using the setState function</p>
+                
             </div>
         </div>
     );

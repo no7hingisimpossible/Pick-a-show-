@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
-           <p className='logo'>Take Your <span>Pick!</span></p>
+           <p className='logo'><span className='logo-color'>Pick</span> a show</p>
                 <div>
                     <a href="/">Home</a>
                     <a href="/">Oncoming</a>

@@ -49,3 +49,17 @@
 .clear-btn:hover,.random-btn:hover{
     background-color: #f1b24a;
 }
+.font-awesome{
+    margin-left: 6px;
+}
+@media screen and (max-width:375px) {
+    .movie-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 80px 30px;
+    }
+    
+    
+    
+}

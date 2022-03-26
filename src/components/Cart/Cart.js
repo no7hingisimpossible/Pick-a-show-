@@ -3,11 +3,11 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    const {item} = props
+    const {cart} = props
     return (
         <div className='cart'>
-            <p>{item}</p>
-            {/* <button onClick={props.clearCart}>Clear</button> */}
+            <p>{cart}</p>
+           
             
             
         </div>

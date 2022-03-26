@@ -3,10 +3,10 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    const {cart} = props
+    const {item} = props
     return (
         <div className='cart'>
-            <p>{cart}</p>
+            <p>{item}</p>
            
             
             

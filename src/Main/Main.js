@@ -56,7 +56,11 @@ const Main = () => {
             </div>
             <div className='cart-container'>
                 <p className='picks'>Your Picks</p>
-                <Cart cart={cart}></Cart>                
+                 {
+                     cart.map(item=> <Cart
+                        key= {item}
+                        item={item}></Cart>)
+                 }             
                 <button className='clear-btn' onClick={clearCart}>Clear<span className='font-awesome'><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></span> </button>
                 <button className='random-btn' onClick={selectRandom}>Pick a show</button>
                 

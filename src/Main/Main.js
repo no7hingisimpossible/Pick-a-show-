@@ -8,6 +8,7 @@ import './Main.css'
 const Main = () => {
     const [movies, setMovies] = useState([]);
     const [cart, setCart] = useState([]);
+    console.log(cart);
         useEffect( ()=>{
         fetch('data.json')
         .then(res => res.json())
@@ -16,9 +17,9 @@ const Main = () => {
 
 // add to cart handler
 
-    const addToCartHandler=(name)=>{
-        console.log(name);
-        const newCart = [...cart, name]
+    const addToCartHandler=(selectedMovie)=>{
+        
+        const newCart = [...cart, selectedMovie]
         if(cart.length >=4){
             alert('Cant choose more than 4 movies')
         }
@@ -26,7 +27,7 @@ const Main = () => {
 
             setCart(newCart)
         }
-        console.log(newCart);
+        
     }
 
 // clear cart handler
@@ -57,9 +58,7 @@ const Main = () => {
             <div className='cart-container'>
                 <p className='picks'>Your Picks</p>
                  {
-                     cart.map(item=> <Cart
-                        key= {item}
-                        item={item}></Cart>)
+                     cart.map( (item) => <Cart key={item.name} item={item}></Cart>)
                  }             
                 <button className='clear-btn' onClick={clearCart}>Clear<span className='font-awesome'><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></span> </button>
                 <button className='random-btn' onClick={selectRandom}>Pick a show</button>

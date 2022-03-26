@@ -14,7 +14,7 @@ const Movie = (props) => {
                     <p>Genre: <small>{genre}</small></p>
                     <p><small>price: $ {rating}</small></p>
                 </div>
-                    <button onClick={ () => addToCartHandler (name) } className='add-cart-btn'>Add to Cart<span className='font-awesome'><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></span></button>
+                    <button onClick={ () => addToCartHandler (props.movie) } className='add-cart-btn'>Add to Cart<span className='font-awesome'><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></span></button>
         </div>
     );
 };
